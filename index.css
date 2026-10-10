@@ -1,0 +1,26 @@
+.h1-tag {
+  color: blue;
+}
+.nav-bar{
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    background-color: rgb(245, 233, 220);
+    padding: 15px;
+    text-align: center;
+}
+/* to apply styling for only anchor tag*/
+.nav-bar a{
+    padding: 15px;
+    text-decoration: none;/*to remove the underline below the text in nav-bar*/
+    color: brown;
+}
+/* hover used to style when we get the styling ,when we goto that tag or when we move the cursor to that tag*/
+.nav-bar a:hover{
+    background-color: burlywood;
+    text-decoration: underline;
+}
+/*by default the body has 8px margin form top ,so if we remove that there will be no space from top*/
+body{
+    margin: 0px;
+}
