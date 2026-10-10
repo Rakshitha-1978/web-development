@@ -24,3 +24,30 @@
 body{
     margin: 0px;
 }
+.card{
+    /*instead of giving three dif properties for border we use only one for three*/ 
+    border: 2px solid black;
+    width: 350px;
+    text-align: center;
+    margin-left: auto;/*it will atke as much as width it will take from the left*/
+    margin-right: auto;
+    margin-top: 70px;
+    border-radius: 30px;/*to cut the sharp edges and give it a smooth touch*/
+    overflow: hidden;/*when we use the border-radius the image in the cotainer comes outside so then we use overflow property to hide the extra img*/
+    padding-bottom :20px ;
+    overflow:shadow;
+}
+.card img{
+    /*if we dont know the width of the box ,instead of pixels we use percentage here ,the percentage is taken from the parent*/
+    width: 100%;
+}
+.card button{
+  width: 70%;
+  padding: 8px;
+  border-radius: 20px;
+  
+}
+.card button:hover{
+    cursor: pointer;
+    background-color: burlywood;
+}
