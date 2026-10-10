@@ -29,7 +29,7 @@ body{
     border: 2px solid black;
     width: 350px;
     text-align: center;
-    margin-left: auto;/*it will atke as much as width it will take from the left*/
+    margin-left: auto;/*it will take as much as width it will take from the left*/
     margin-right: auto;
     margin-top: 70px;
     border-radius: 30px;/*to cut the sharp edges and give it a smooth touch*/
